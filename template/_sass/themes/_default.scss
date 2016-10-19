@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// When having several themes, this file contains everything related to the
+// default one.
+// -----------------------------------------------------------------------------
+
+.aside {
+  background: purple;
+  transition: 0.3s;
+
+  @include media-query($on-laptop) {
+    transition: none;
+  }
+}
+
+.main {
+  background: green;
+}
+
+.main-content {
+  background: gold;
+}
+
+.site-footer {
+  background: lightgreen;
+}

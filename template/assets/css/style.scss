@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/// Theme colors
+/// @type Color
+$theme: rgb(0, 191, 255);
+$bg-color: rgb(240, 248, 255);
+$comp-theme: rgb(255, 165, 0);
+
+/// Copy text color
+/// @type Color
+$text-color: rgb(34, 34, 34);
+
+
+// Import partials
+@import "style";
