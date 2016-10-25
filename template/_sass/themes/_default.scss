@@ -3,8 +3,13 @@
 // default one.
 // -----------------------------------------------------------------------------
 
+body {
+  background: $bg-color;
+}
+
 .aside {
-  background: purple;
+  background: $text-color;
+  color: $bg-color;
   transition: 0.3s;
 
   @include media-query($on-laptop) {
@@ -12,18 +17,12 @@
   }
 }
 
-.main {
-  background: green;
-}
-
-.main-content {
-  background: gold;
-}
-
 .main-footer {
-  background: lightgreen;
+  background: $light-grey;
 }
 
+.home,
+.post,
 .pagination {
-  background: lime;
+  background: $mid-grey;
 }

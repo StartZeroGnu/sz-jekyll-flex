@@ -41,11 +41,16 @@ body {
   flex: 1;
 }
 
+.home,
+.post,
+.pagination {
+  margin-bottom: 1rem;
+}
+
 /**
  * Layout - Pagination
  */
 .pagination {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1rem;
 }

@@ -2,11 +2,13 @@
 
 ## Features
 
-* 2 columns layout
+* 2 columns
 * sass boilerplate 1-7
 * normalize v.5.0.0
 * mobile first (flexbox)
 * toggle aside without JS
+* pagination
+* sitemap
 
 ## Usage
 
@@ -26,6 +28,9 @@ sz-jekyll-flex
 │   └── css
 │       └── style.scss
 ├── _includes
+│   ├── pagination
+│   │   ├── pages.html
+│   │   └── posts.html
 │   ├── burguer.html
 │   ├── disqus_comments.html
 │   ├── footer.html
@@ -34,11 +39,15 @@ sz-jekyll-flex
 │   └── nav.html
 ├── _layouts
 │   ├── default.html
-│   ├── home.html
 │   ├── page.html
 │   └── post.html
 ├── _posts
-│   └── 2016-10-19-welcome-to-jekyll.markdown
+│   ├── 2016-05-20-my-example-post.md
+│   ├── 2016-05-20-super-long-article-2.md
+│   ├── 2016-05-20-super-long-article.md
+│   ├── 2016-05-20-this-post-demonstrates-post-content-styles.md
+│   ├── 2016-10-19-welcome-to-jekyll.markdown
+│   └── 2016-10-25-small-post.md
 ├── _sass
 │   ├── abstracts
 │   │   ├── _functions.scss

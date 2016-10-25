@@ -21,7 +21,5 @@ layout: default
 </article>
 
 {% if paginator.total_pages > 1 %}
-  <div class="container">
-    {% include pagination/pages.html %}
-  </div>
+  {% include pagination/pages.html %}
 {% endif %}
