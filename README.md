@@ -28,6 +28,9 @@ sz-jekyll-flex
 │   └── css
 │       └── style.scss
 ├── _includes
+│   ├── aside
+│   │   ├── nav.html
+│   │   └── title.html
 │   ├── pagination
 │   │   ├── pages.html
 │   │   └── posts.html
@@ -35,15 +38,13 @@ sz-jekyll-flex
 │   ├── disqus_comments.html
 │   ├── footer.html
 │   ├── google-analytics.html
-│   ├── head.html
-│   └── nav.html
+│   └── head.html
 ├── _layouts
 │   ├── default.html
 │   ├── page.html
 │   └── post.html
 ├── _posts
 │   ├── 2016-05-20-my-example-post.md
-│   ├── 2016-05-20-super-long-article-2.md
 │   ├── 2016-05-20-super-long-article.md
 │   ├── 2016-05-20-this-post-demonstrates-post-content-styles.md
 │   ├── 2016-10-19-welcome-to-jekyll.markdown
@@ -71,9 +72,29 @@ sz-jekyll-flex
 │   │   ├── _normalize.scss
 │   │   └── _syntax-highlighting.scss
 │   └── style.scss
+├── _site
+│   ├── about
+│   │   └── index.html
+│   ├── assets
+│   │   └── css
+│   │       └── style.css
+│   ├── blog
+│   │   ├── page2
+│   │   │   └── index.html
+│   │   └── posts
+│   │       ├── my-example-post.html
+│   │       ├── small-post.html
+│   │       ├── super-long-article.html
+│   │       ├── this-post-demonstrates-post-content-styles.html
+│   │       └── welcome-to-jekyll.html
+│   ├── feed.xml
+│   ├── feed.xslt.xml
+│   ├── index.html
+│   └── sitemap.xml
 ├── about.md
 ├── _config.yml
 ├── Gemfile
+├── Gemfile.lock
 ├── index.html
 ├── LICENSE.txt
 └── README.md
