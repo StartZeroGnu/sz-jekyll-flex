@@ -1,0 +1,11 @@
+<nav class="container site-nav">
+  <ul class="clean-list">
+    {% for item in site.navigation %}
+    <li>
+      <a class="aside-link" href="{{ item[1] | relative_url }}" title="{{ item[0] }}">
+        {{ item[0] }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

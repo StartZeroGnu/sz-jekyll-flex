@@ -32,3 +32,6 @@ exclude:
 collections:
   posts:
     permalink: /blog/posts/:title
+
+navigation:
+  About: /about/

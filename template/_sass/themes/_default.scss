@@ -3,10 +3,16 @@
 // default one.
 // -----------------------------------------------------------------------------
 
+/**
+ * Theme
+ */
 body {
   background: $bg-color;
 }
 
+/**
+ * Theme - Aside
+ */
 .aside {
   background: $text-color;
   color: $bg-color;
@@ -17,12 +23,56 @@ body {
   }
 }
 
-.main-footer {
-  background: $light-grey;
+/**
+ * Theme - Aside (title)
+ */
+.site-title {
+  color: $brand-color;
 }
 
+/**
+ * Theme - Aside (author, subtitle)
+ */
+.site-author,
+.site-subtitle {
+  display: block;
+  font-size: 50%;
+}
+
+.site-author {
+  color: $comp-theme;
+}
+
+/**
+ * Theme - Aside links
+ */
+.aside-link {
+  color: $bg-color;
+  @include on-event{
+    color: inherit;
+    text-decoration: none;
+  }
+  &:visited {
+    color: inherit;
+    @include on-event {
+      color: inherit;
+    }
+  }
+}
+
+/**
+ * Theme - Main footer
+ */
+.main-footer {
+  background: $light-grey;
+  font-size: 85%;
+}
+
+/**
+ *
+ */
 .home,
 .post,
 .pagination {
-  background: $mid-grey;
+  //background: $mid-grey;
 }
