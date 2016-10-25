@@ -1,3 +1,34 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+// @include button($bg, $text);
+
+.button {
+  @include button;
+
+  &-comp {
+    @include button($comp-theme, $comp-theme);
+  }// comp
+
+  &-green {
+    @include button(green, green);
+  }// green
+
+  &-red {
+    @include button(red, red);
+  }// red
+
+  &-purple {
+    @include button(purple, purple);
+  }// purple
+
+  &-teal {
+    @include button(teal, teal);
+  }// teal
+
+  &-empty {
+    @include button($bg-color, $text-color);
+  }// empty
+
+}// button
