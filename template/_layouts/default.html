@@ -3,27 +3,25 @@
 
   {% include head.html %}
 
-  <body class="flex-row">
+  <body>
 
     {% include burguer.html %}
 
-    <aside class="aside">
-      <div class="container">
-        {% include nav.html %}
-      </div>
-    </aside>
+    <main class="main flex-column">
 
-    <main class="main sticky">
-
-      <section class="main-content" aria-label="Content">
-        <div class="container">
+      <section class="main-content flex-column" aria-label="Content">
           {{ content }}
-        </div>
       </section>
 
-      {% include footer.html %}
+      <footer class="main-footer">
+        {% include footer.html %}
+      </footer>
 
     </main>
+
+    <aside class="aside">
+      {% include nav.html %}
+    </aside>
 
   </body>
 

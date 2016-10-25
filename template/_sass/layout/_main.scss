@@ -6,14 +6,12 @@
  * Layout
  */
 html,
-body,
-main {
-  width: 100%;
+body {
   height: 100%;
 }
 
 /**
- * Layout - Aside
+ * Layout - 2 Columns
  */
 .aside {
   position: fixed;
@@ -26,15 +24,28 @@ main {
   }
 }
 
-/**
- * Layout - Main
- */
 .main {
-  flex: 1;
-  min-width: 100%;
+  min-height: 100%;
   @include media-query($on-laptop) {
     width: 80%;
     margin-left: 20%;
-    min-width: auto;
   }
+}
+
+/**
+ * Layout - Sticky
+ */
+.main-content,
+.home,
+.post {
+  flex: 1;
+}
+
+/**
+ * Layout - Pagination
+ */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
 }

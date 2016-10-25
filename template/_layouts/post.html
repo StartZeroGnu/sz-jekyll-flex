@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="container post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -12,7 +12,12 @@ layout: default
     {{ content }}
   </div>
 
+</article>
+
+<div class="container">
+  {% include pagination/posts.html %}
+
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
-</article>
+</div>

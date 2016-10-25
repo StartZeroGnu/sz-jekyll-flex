@@ -59,7 +59,8 @@
  */
 .clean-list {
   list-style: none;
-  padding-left: 0;
+  padding-left: 0; // clean default space
+  margin-left: 0; // clean base.scss space
 }
 
 /**
@@ -70,11 +71,9 @@
 }
 
 /**
- * Flex - Column Between
+ * Flex - Column
  */
-.sticky {
+.flex-column {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 100%;
 }
