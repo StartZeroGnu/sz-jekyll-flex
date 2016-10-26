@@ -39,6 +39,55 @@ a {
 }
 
 /**
+ * Lists
+ */
+ul, ol {
+  margin-left: 0.50rem;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: 85%;
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: $brand-color;
+  border-left: 5px solid $brand-color;
+  padding-left: 0.50rem;
+  font-size: 85%;
+  //letter-spacing: -1px;
+  font-style: italic;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+/**
  * Code formatting
  */
 pre,

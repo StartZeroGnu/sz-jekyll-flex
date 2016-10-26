@@ -9,6 +9,13 @@
 * toggle aside without JS
 * pagination
 * sitemap
+* SVG icons (Octicons 4.3.0)
+
+### Image
+
+* [Test image](https://pixabay.com/en/carousel-website-page-layout-1684591/)
+  by [JuralMin](https://pixabay.com/en/users/JuralMin-2051452/)
+  download from [Pixabay](https://pixabay.com/)
 
 ## Usage
 
@@ -24,8 +31,10 @@ Resulting in:
 
 ```
 ├── assets
-│   └── css
-│       └── style.scss
+│   ├── css
+│   │   └── style.scss
+│   └── images
+│       └── test.svg
 ├── _includes
 │   ├── aside
 │   │   ├── nav.html
