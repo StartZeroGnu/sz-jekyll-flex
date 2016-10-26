@@ -46,31 +46,3 @@
     @content;
   }
 }
-
-/// Button
-/// @author StartZeroGnu
-/// @param {String} $bg
-/// @param {String} $text
-@mixin button($bg: $text-color, $text: $brand-color) {
-  border: 1px solid;
-  border-radius: 5px;
-  padding: 0.25rem 0.50rem;
-  color: $text;
-  display: inline-block;
-  margin-top: 0.50rem;
-
-  @include on-event {
-    background-color: rgba($bg, 0.3);
-    color: $text;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-
-  &:visited {
-    color: $text;
-
-    @include on-event {
-      color: $text;
-    }
-  }
-}

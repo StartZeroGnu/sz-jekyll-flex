@@ -3,32 +3,5 @@
 ---
 @charset "utf-8";
 
-/// Theme colors
-/// @type Color
-$theme: rgb(52, 152, 219); // main color
-$bg-color: rgb(240, 248, 255); // background color
-$comp-theme: rgb(241, 196, 15); // complementary color
-
-/// Copy text color
-/// @type Color
-$text-color: rgb(44, 62, 80);
-
-/// Main brand color
-/// @type Color
-$brand-color: $theme;
-
-/// Light grey
-/// @type Color
-$light-grey: rgb(189, 195, 199);
-
-/// Medium grey
-/// @type Color
-$mid-grey: rgb(149, 165, 166);
-
-/// Dark grey
-/// @type Color
-$dark-grey: rgb(127, 140, 141);
-
-
 // Import partials
 @import "style";

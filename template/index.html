@@ -4,17 +4,14 @@ layout: default
 
 <article class="container home">
 
-  <h1 class="home-title">Posts</h1>
+  <h1>Posts</h1>
 
-  <ul class="clean-list post-list">
-    {% for post in paginator.posts %}
+  <ul class="clean-list">
+    {% for post in site.posts %}
       <li>
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
-          <span class="post-meta">
-            {% include svg/calendar.svg %}
-            {{ post.date | date: "%b %-d, %Y" }}
-          </span>
+          <a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
+          <span>• {{ post.date | date: "%b %-d, %Y" }}</span>
         </h2>
       </li>
     {% endfor %}
@@ -22,6 +19,6 @@ layout: default
 
 </article>
 
-{% if paginator.total_pages > 1 %}
-  {% include pagination/pages.html %}
-{% endif %}
+<div class="container pagination">
+  <span>Pagination</span>
+</div>

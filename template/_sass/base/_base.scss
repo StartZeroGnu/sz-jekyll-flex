@@ -30,12 +30,6 @@ a {
     color: $comp-theme;
     text-decoration: underline;
   }
-  &:visited {
-    color: darken($brand-color, 15%);
-    @include on-event {
-      color: darken($comp-theme, 5%);
-    }
-  }
 }
 
 /**
@@ -79,7 +73,6 @@ blockquote {
   border-left: 5px solid $brand-color;
   padding-left: 0.50rem;
   font-size: 85%;
-  //letter-spacing: -1px;
   font-style: italic;
 
   > :last-child {
@@ -96,8 +89,8 @@ code {
   border: 1px solid $brand-color;
   border-radius: 5px;
   font-family: $code-font-stack;
-  background: #eef; //inline-code e iguala con bg block-code
-  vertical-align: middle; // alinea inline-code con texto
+  background: #eef;
+  vertical-align: middle;
 }
 
 code {
@@ -122,6 +115,4 @@ svg {
   fill: currentColor;
   display: inline-block;
   vertical-align: middle;
-  width: 1em;
-  height: 1em;
 }

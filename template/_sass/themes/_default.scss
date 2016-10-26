@@ -31,37 +31,6 @@ body {
 }
 
 /**
- * Theme - Aside (author, subtitle)
- */
-.site-author,
-.site-subtitle {
-  display: block;
-  font-size: 50%;
-  font-weight: normal;
-}
-
-.site-author {
-  color: $comp-theme;
-}
-
-/**
- * Theme - Aside links
- */
-.aside-link {
-  color: $bg-color;
-  @include on-event{
-    color: inherit;
-    text-decoration: none;
-  }
-  &:visited {
-    color: inherit;
-    @include on-event {
-      color: inherit;
-    }
-  }
-}
-
-/**
  * Theme - Main footer
  */
 .main-footer {
@@ -70,24 +39,9 @@ body {
 }
 
 /**
- * Theme - Posts list (meta)
- */
-.post-link + .post-meta {
-  @extend .site-subtitle;
-}
-
-.next {
-  margin-left: 0.50rem;
-}
-.previous {
-  margin-right: 0.50rem;
-}
-
-/**
  *
  */
-.home,
-.post,
+
 .pagination {
-  //background: $mid-grey;
+  background: $mid-grey;
 }

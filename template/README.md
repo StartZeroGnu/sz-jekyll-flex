@@ -1,4 +1,4 @@
-# Jekyll Quick Starter template / scaffold (for use with [quikstart](https://github.com/quikstart))
+# Jekyll Quick Starter template / scaffold (for use with [Qk/Quik Start](https://github.com/quikstart))
 
 ## Features
 
@@ -7,15 +7,6 @@
 * normalize v.5.0.0
 * mobile first (flexbox)
 * toggle aside without JS
-* pagination
-* sitemap
-* SVG icons (Octicons 4.3.0)
-
-### Image
-
-* [Test image](https://pixabay.com/en/carousel-website-page-layout-1684591/)
-  by [JuralMin](https://pixabay.com/en/users/JuralMin-2051452/)
-  download from [Pixabay](https://pixabay.com/)
 
 ## Usage
 
@@ -31,35 +22,22 @@ Resulting in:
 
 ```
 ├── assets
-│   ├── css
-│   │   └── style.scss
-│   └── images
-│       └── test.svg
+│   └── css
+│       └── style.scss
 ├── _includes
-│   ├── aside
-│   │   ├── nav.html
-│   │   ├── social.html
-│   │   └── title.html
-│   ├── pagination
-│   │   ├── pages.html
-│   │   └── posts.html
-│   ├── svg
-│   │   └── **Octicons 4.3.0**
 │   ├── burguer.html
 │   ├── disqus_comments.html
 │   ├── footer.html
 │   ├── google-analytics.html
-│   └── head.html
+│   ├── head.html
+│   ├── nav.html
+│   └── title.html
 ├── _layouts
 │   ├── default.html
 │   ├── page.html
 │   └── post.html
 ├── _posts
-│   ├── 2016-05-20-my-example-post.md
-│   ├── 2016-05-20-super-long-article.md
-│   ├── 2016-05-20-this-post-demonstrates-post-content-styles.md
-│   ├── 2016-10-19-welcome-to-jekyll.markdown
-│   └── 2016-10-25-small-post.md
+│   └── 2016-10-26-my-example-post.md
 ├── _sass
 │   ├── abstracts
 │   │   ├── _functions.scss
