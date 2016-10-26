@@ -23,17 +23,19 @@ This will download and run the sz-jekyll-flex.rb quik starter script.
 Resulting in:
 
 ```
-sz-jekyll-flex
 ├── assets
 │   └── css
 │       └── style.scss
 ├── _includes
 │   ├── aside
 │   │   ├── nav.html
+│   │   ├── social.html
 │   │   └── title.html
 │   ├── pagination
 │   │   ├── pages.html
 │   │   └── posts.html
+│   ├── svg
+│   │   └── **Octicons 4.3.0**
 │   ├── burguer.html
 │   ├── disqus_comments.html
 │   ├── footer.html
@@ -72,29 +74,10 @@ sz-jekyll-flex
 │   │   ├── _normalize.scss
 │   │   └── _syntax-highlighting.scss
 │   └── style.scss
-├── _site
-│   ├── about
-│   │   └── index.html
-│   ├── assets
-│   │   └── css
-│   │       └── style.css
-│   ├── blog
-│   │   ├── page2
-│   │   │   └── index.html
-│   │   └── posts
-│   │       ├── my-example-post.html
-│   │       ├── small-post.html
-│   │       ├── super-long-article.html
-│   │       ├── this-post-demonstrates-post-content-styles.html
-│   │       └── welcome-to-jekyll.html
-│   ├── feed.xml
-│   ├── feed.xslt.xml
-│   ├── index.html
-│   └── sitemap.xml
-├── about.md
 ├── _config.yml
+├── .gitignore
+├── about.md
 ├── Gemfile
-├── Gemfile.lock
 ├── index.html
 ├── LICENSE.txt
 └── README.md
