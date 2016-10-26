@@ -37,23 +37,33 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit
 </section>
 ```
 
-[Link](#){:.button}
-[Link](#){:.button-empty}
-[Link](#){:.button-comp}
-[Link](#){:.button-purple}
-[Link](#){:.button-teal}
-[Link](#){:.button-red}
-[Link](#){:.button-green}
+[Link {% include svg/link.svg %}](#){:.button}
+[Link {% include svg/link.svg %}](#){:.button-empty}
+[Link {% include svg/link.svg %}](#){:.button-comp}
+[Link {% include svg/link.svg %}](#){:.button-purple}
+[Link {% include svg/link.svg %}](#){:.button-teal}
+[Link {% include svg/link.svg %}](#){:.button-red}
+[Link {% include svg/link.svg %}](#){:.button-green}
 
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-[Link](#){:.button}
-[Link](#){:.button-empty}
-[Link](#){:.button-comp}
-[Link](#){:.button-purple}
-[Link](#){:.button-teal}
-[Link](#){:.button-red}
-[Link](#){:.button-green}
+[Link {% include svg/link.svg %}](#){:.button}
+[{% include svg/link.svg %}](#){:.button-empty}
+[Link {% include svg/link.svg %}](#){:.button-comp}
+[{% include svg/link.svg %}](#){:.button-purple}
+[Link {% include svg/link.svg %}](#){:.button-teal}
+[{% include svg/link.svg %}](#){:.button-red}
+[Link {% include svg/link.svg %}](#){:.button-green}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+[{% include svg/link.svg %}](#){:.icon}
+[{% include svg/link.svg %}](#){:.icon-comp}
+[{% include svg/link.svg %}](#){:.icon-purple}
+[{% include svg/link.svg %}](#){:.icon-teal}
+[{% include svg/link.svg %}](#){:.icon-green}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem {% include svg/arrow-right.svg %} ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod {% include svg/home.svg %} tempor incididunt ut labore et dolore magna aliqua. Ut enim {% include svg/link.svg %} ad minim veniam, quis nostrud exercitation ullamco laboris nisi {% include svg/arrow-left.svg %} ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in {% include svg/hubot.svg %} voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint {% include svg/repo.svg %} occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum {% include svg/hubot.svg %}.

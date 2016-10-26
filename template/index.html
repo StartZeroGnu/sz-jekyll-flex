@@ -11,7 +11,10 @@ layout: default
       <li>
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <span class="post-meta">
+            {% include svg/calendar.svg %}
+            {{ post.date | date: "%b %-d, %Y" }}
+          </span>
         </h2>
       </li>
     {% endfor %}

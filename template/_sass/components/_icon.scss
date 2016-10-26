@@ -12,8 +12,8 @@
   top: 1rem;
   right: 1rem;
 
-  padding: 0.50rem;
   line-height: 0;
+  padding: 0.50rem;
   background: rgba($text-color, 0.3);
   &:hover {
     cursor: pointer;
@@ -30,4 +30,47 @@
   &:checked ~ .aside {
     left: 0;
   }
+}
+
+.icon {
+  @include button;
+  line-height: 0;
+  padding: 0.50rem;
+
+  &-comp {
+    @include button($comp-theme, $comp-theme);
+    line-height: 0;
+    padding: 0.50rem;
+  }// comp
+
+  &-green {
+    @include button(green, green);
+    line-height: 0;
+    padding: 0.50rem;
+  }// green
+
+  &-red {
+    @include button(red, red);
+    line-height: 0;
+    padding: 0.50rem;
+  }// red
+
+  &-purple {
+    @include button(purple, purple);
+    line-height: 0;
+    padding: 0.50rem;
+  }// purple
+
+  &-teal {
+    @include button(teal, teal);
+    line-height: 0;
+    padding: 0.50rem;
+  }// teal
+
+  &-white {
+    @include button(white, white);
+    line-height: 0;
+    padding: 0.50rem;
+  }// white
+
 }
