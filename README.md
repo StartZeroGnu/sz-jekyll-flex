@@ -2,7 +2,7 @@
 
 # Jekyll 3.3 [Qk/Quik Start][qk] :zap: Starter template / scaffold
 
-:crystal_ball: Live [preview][demo]
+:crystal_ball: Live [preview (gh-pages)][demo]
 
 ## Features
 
@@ -14,92 +14,99 @@
 
 ## Usage
 
-Install QK/Quik gem:
+* **GH-Pages**
 
-```
-~ $ gem install quik
-```
+  Fork repo, remove master branch and customize `config.yml` +
+  `/assets/css/style.scss` with your site settings.
 
-Use like:
+* **QK/Quik**
 
-```
-~ $ quik new sz-jekyll-flex
-```
+  Install QK/Quik gem:
 
-This will download and run the [*sz-jekyll-flex.rb*][script] quik starter script:
+  ```
+  ~ $ gem install quik
+  ```
 
-```
-starting new Quik script {}; lets go
-Hello from the sz-jekyll-flex template
-Q: Name of the template? [blog]:
-```
+  Use like:
 
-Type your project name or push `intro` to use default name "blog":
+  ```
+  ~ $ quik new sz-jekyll-flex
+  ```
 
-```
-handle install_template StartZeroGnu/sz-jekyll-flex, {}
-```
+  This will download and run the [*sz-jekyll-flex.rb*][script] quik starter script:
 
-Resulting in:
+  ```
+  starting new Quik script {}; lets go
+  Hello from the sz-jekyll-flex template
+  Q: Name of the template? [blog]:
+  ```
 
-```
-<project-name>
-├── assets
-│   └── css
-│       └── style.scss
-├── _includes
-│   ├── burguer.html
-│   ├── disqus_comments.html
-│   ├── footer.html
-│   ├── google-analytics.html
-│   ├── head.html
-│   ├── nav.html
-│   └── title.html
-├── _layouts
-│   ├── default.html
-│   ├── page.html
-│   └── post.html
-├── _posts
-│   └── YYYY-MM-DD-my-example-post.md
-├── _sass
-│   ├── abstracts
-│   │   ├── _functions.scss
-│   │   ├── _mixins.scss
-│   │   └── _variables.scss
-│   ├── base
-│   │   ├── _base.scss
-│   │   ├── _fonts.scss
-│   │   ├── _helpers.scss
-│   │   └── _typography.scss
-│   ├── components
-│   │   ├── _button.scss
-│   │   └── _icon.scss
-│   ├── layout
-│   │   └── _main.scss
-│   ├── pages
-│   │   └── _home.scss
-│   ├── themes
-│   │   └── _default.scss
-│   ├── vendor
-│   │   ├── _normalize.scss
-│   │   └── _syntax-highlighting.scss
-│   └── style.scss
-├── _config.yml
-├── .gitignore
-├── about.md
-├── Gemfile
-├── index.html
-├── LICENSE.txt
-└── README.md
-```
+  Type your project name or push `intro` to use default name "blog":
 
-Now run Jekyll serve for a quick view:
+  ```
+  handle install_template StartZeroGnu/sz-jekyll-flex, {}
+  ```
 
-```
-~ $ bundle exec jekyll s
-```
+  Resulting in:
 
-Dance :musical_note: and celebrate :tada:
+  ```
+  <project-name>
+  ├── assets
+  │   └── css
+  │       └── style.scss
+  ├── _includes
+  │   ├── burguer.html
+  │   ├── disqus_comments.html
+  │   ├── footer.html
+  │   ├── google-analytics.html
+  │   ├── head.html
+  │   ├── nav.html
+  │   └── title.html
+  ├── _layouts
+  │   ├── default.html
+  │   ├── page.html
+  │   └── post.html
+  ├── _posts
+  │   └── YYYY-MM-DD-my-example-post.md
+  ├── _sass
+  │   ├── abstracts
+  │   │   ├── _functions.scss
+  │   │   ├── _mixins.scss
+  │   │   └── _variables.scss
+  │   ├── base
+  │   │   ├── _base.scss
+  │   │   ├── _fonts.scss
+  │   │   ├── _helpers.scss
+  │   │   └── _typography.scss
+  │   ├── components
+  │   │   ├── _button.scss
+  │   │   └── _icon.scss
+  │   ├── layout
+  │   │   └── _main.scss
+  │   ├── pages
+  │   │   └── _home.scss
+  │   ├── themes
+  │   │   └── _default.scss
+  │   ├── vendor
+  │   │   ├── _normalize.scss
+  │   │   └── _syntax-highlighting.scss
+  │   └── style.scss
+  ├── _config.yml
+  ├── .gitignore
+  ├── about.md
+  ├── Gemfile
+  ├── index.html
+  ├── LICENSE.txt
+  └── README.md
+  ```
+
+  Now run Jekyll serve for a quick view:
+
+  ```
+  ~ $ bundle exec jekyll s
+  ```
+
+  Dance :musical_note: and celebrate :tada:
 
 ## Credits and Thanks :clap:
 
@@ -118,7 +125,7 @@ Dance :musical_note: and celebrate :tada:
 [Script][script] Public domain license · Template [MIT][mit] license.
 
 [qk]: https://github.com/quikstart
-[demo]: http://startzerognu.neocities.org/qk-sz-flex/
+[demo]: https://startzerognu.github.io/sz-jekyll-flex
 [script]: https://github.com/quikstart/scripts/blob/master/sz-jekyll-flex.rb
 [geraldb]: https://github.com/geraldb
 [sass-boilerplate]: https://github.com/HugoGiraudel/sass-boilerplate
