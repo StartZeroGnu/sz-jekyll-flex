@@ -30,3 +30,6 @@ collections:
 navigation:
   Home: /
   About: /about/
+
+disqus:
+  shortname: qk-ghpages
